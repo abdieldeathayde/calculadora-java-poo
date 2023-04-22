@@ -35,7 +35,9 @@ public class Calculadora {
 		int numero2;
 		
 		Scanner sc = new Scanner(System.in);
+		System.out.print("Digite o primeiro número: ");
 		numero1 = sc.nextInt();
+		System.out.print("Digite o segundo número: ");
 		numero2 = sc.nextInt();
 		
 		Calculadora calculadora = new Calculadora(numero1, numero2);
